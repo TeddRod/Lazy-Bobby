@@ -5,9 +5,9 @@ import {messages, youWin, youLose,startMsg } from "./data.js"
 var d = new Date();
 var date = '-----| '+d.getHours()+':'+d.getMinutes()+' |-----';
 
-var vibrate = new Audio("../materials/sound/fx/vibrate.wav");
-var touch = new Audio("../materials/sound/fx/touch.wav");
-var start = new Audio('../materials/sound/fx/start.wav');
+var vibrate = new Audio(window.location.href + "materials/sound/fx/vibrate.wav");
+var touch = new Audio(window.location.href + "materials/sound/fx/touch.wav");
+var start = new Audio(window.location.href + 'materials/sound/fx/start.wav');
 
 // --- original state ---
 

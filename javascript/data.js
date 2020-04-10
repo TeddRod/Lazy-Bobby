@@ -159,11 +159,38 @@ const messages = [
 
     {
         sender : "from:  Job" ,
-        text :  "if you want the position of manger it's yours" ,
+        text :  "if you want the position of manager it's yours" ,
         affAnswer :  "can i fire Brenda?" ,
         negAnswer : "i prefer to take it easy"  ,
         affPoints :  [0,9,16,23] ,
         negPoints :  [4,-3,-5,-2] 
+    },
+
+    {
+        sender : "from:  Dat Crazy ExGF" ,
+        text :  "admit it or not, you dumba**, that babyboy is your son. you better recognize it" ,
+        affAnswer :  "how much for you to disappear forever" ,
+        negAnswer : "annnw. how many sons do i got?"  ,
+        affPoints :  [7,-9,0,-13] ,
+        negPoints :  [7,-15,0,0] 
+    },
+
+    {
+        sender : "from:  Tati-Anna" ,
+        text :  "nice job on 1st iteration of the Lab, could please send the 9 others now?" ,
+        affAnswer :  "right on my way... in a couple of days" ,
+        negAnswer : "i tought it was the bonus part"  ,
+        affPoints :  [0,0,-5,0] ,
+        negPoints :  [0,0,-9,0] 
+    },
+
+    {
+        sender : "from:  PrincessCSS" ,
+        text :  "your code is really neat, pretty clear: there absolutely nothing on it. is it a joke?" ,
+        affAnswer :  "right on my way... in a couple of days" ,
+        negAnswer : "i tought it was the bonus part"  ,
+        affPoints :  [0,0,-5,0] ,
+        negPoints :  [0,0,-9,0] 
     },
 ];
 
