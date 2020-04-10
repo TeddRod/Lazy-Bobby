@@ -1,0 +1,268 @@
+@font-face {
+    font-family: 'fresh_markerregular';
+    src: url('../materials/visual/fonts/freshmarkerregular/freshmarker-webfont.woff2') format('woff2'),
+         url('../materials/visual/fonts/freshmarkerregular/freshmarker-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'digital-7regular';
+    src: url('../materials/visual/fonts/d7/digital-7-webfont.woff2') format('woff2'),
+         url('../materials/visual/fonts/d7/digital-7-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bold_dot_digital-7regular';
+    src: url('../materials/visual/fonts/dot/bold_dot_digital-7-webfont.woff2') format('woff2'),
+         url('../materials/visual/fonts/dot/bold_dot_digital-7-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    /* border: 1px dashed rgb(12, 12, 12); */
+    color: black;
+    width : 70vw;
+    height: 10vh;
+    margin-top: 50px;
+    font-family: 'fresh_markerregular';
+    font-weight: 100;
+    background-image: url("../materials/visual/objects/title-tape.png");
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+h2 {
+    border: 20px solid #1f1f16;
+    margin : 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../materials/visual/backgrounds/messy.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: 0;
+}
+
+#cellphone {
+    /* border: 1px dashed grey; */
+    width: 400px;
+    height: 650px;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 70px;
+    background-image: url("../materials/visual/objects/cellphone.png");
+    background-color: transparent;
+    background-size: cover;
+    position: relative;
+}
+
+.shaking{
+    animation: shake 0.5s
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.messageScreen {
+    /* border: 1px dotted red; */
+    font-family: 'bold_dot_digital-7regular';
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    text-shadow: 1px 1px 2px #3d3c2a;
+    text-align: center;
+    background-color: #b2b07c;
+    border-radius: 15px;
+    
+}
+
+#startGameScreen {
+    width: 210px;
+    height: 400px;
+    position: absolute;
+    top: 115px;
+    left: 103px;
+}
+
+#starticone {
+    /* border: 1px dotted red; */
+    width: 210px;
+    height : 210px;
+    position: absolute;
+    top: 280px;
+    left: 103px;
+    background-color: transparent;
+    background-image: url('../materials/visual/objects/start.png');
+    background-size: cover;
+}
+
+#endGameScreen {
+    width: 220px;
+    height: 340px;
+    position: absolute;
+    top: 170px;
+    left: 96px;
+}
+
+#statusBar * {
+    /* border: 1px dotted green; */
+    font-family: 'digital-7regular';
+    font-size: 20px;
+    color: #1f1f16;
+    background-color: #b2b07c;
+    text-shadow: 1px 1px 2px #3d3c2a
+}
+
+#homieIcone {
+    width: 31px;
+    position: absolute;
+    top:117px;
+    left: 121px;
+    text-align: center
+}
+
+#girlfriendIcone{
+    width: 31px;
+    position: absolute;
+    top:117px;
+    left: 175px;
+    text-align: center
+}
+
+#bossIcone {
+    width: 31px;
+    position: absolute;
+    top:117px;
+    left: 230px;
+    text-align: center;
+}
+
+#moolahIcone{
+    width: 31px;
+    position: absolute;
+    top:117px;
+    left: 288px;
+    text-align: center;
+}
+
+.digitTextFont * {
+    font-family: 'bold_dot_digital-7regular';
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #b2b07c;
+    color:black;
+    text-shadow: 1px 1px 2px #3d3c2a
+}
+
+
+#smsField {
+    /* border: 1px dotted red; */
+    width: 210px;
+    height: 200px;
+    background-color: #b2b07c;
+    position: absolute;
+    top: 160px;
+    left: 103px;
+ }
+
+#senderField {
+    /* border: 1px dotted chartreuse; */
+    width: 210px;
+    position: absolute;
+    top: 7px;
+    /* left: 50px; */
+    text-align: center;
+}
+
+#textField {
+    border: 2px dotted #1f1f16;
+    border-radius: 11px;
+    box-shadow: 0.2em 0.2em 0.1px #9b986a, inset 0.2em 0.2em #9b986a;
+    padding: 6px;
+    position: absolute;
+    top: 50px;
+    
+}
+
+#grumpy {
+    /* border: 1px dotted red; */
+    width: 180px;
+    height: 180px;
+    background-image: url('../materials/visual/objects/grumpy.png');
+    background-size: cover;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    
+}
+
+.btn {
+    /* border: 1px dotted blue; */
+    background-color: #b2b07c;
+    width: 100px;
+    height: 105px;
+    text-align: center;
+    
+}
+
+#rightBtn {
+    /* border: 1px dotted blue; */
+    position: absolute;
+    top: 400px;
+    left: 100px;
+}
+
+#rightBtn:hover {
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px #3d3c2a;
+}
+
+#leftBtn {
+    position: absolute;
+    top: 400px;
+    right: 80px;
+}
+
+#leftBtn:hover {
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px #3d3c2a;
+}
+
+    
+
+
