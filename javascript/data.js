@@ -51,7 +51,7 @@ const messages = [
     
     {
         sender : "from:  MyLove" ,
-        text :  "can you take my grandmother to bingo tonight?" ,
+        text :  "can you take my grandma to bingo tonight?" ,
         affAnswer :  "am already with her" ,
         negAnswer : "nop, i can't, i have Aqua-pony"  ,
         affPoints :  [-9,13,0,0] ,
@@ -180,7 +180,9 @@ const startMsg = [
 
     "I'm telling you; things will go wrong no matter what you do",
 
-    "Take the red pill, or, take the red pill.. wait, what?"
+    "Take the red pill, or, take the red pill.. wait, what?",
+
+    "Don't press the button.. Don't press the button.. Don't press the button.. Don't press the button.. Don't press the button.. Don't press the button.. Don't press the button.. Don't press the button....... "
 ];
 
 
