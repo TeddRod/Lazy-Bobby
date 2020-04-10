@@ -41,7 +41,7 @@ const messages = [
     },
 
     {
-        sender : "from:  Unknow" ,
+        sender : "from:  Unknown" ,
         text :  "we met last night you remember, you want us to go have a drink" ,
         affAnswer :  "only one drink?" ,
         negAnswer : "my girl will not agree"  ,
@@ -107,7 +107,7 @@ const messages = [
         sender : "from:  MyLove" ,
         text :  "howlong do you think you live with your mother?" ,
         affAnswer :  "she sings lullabies so that I do sweet dreams" ,
-        negAnswer : "soon because I'm sick of scrubing her foot"  ,
+        negAnswer : "soon because I'm sick of scrubing her feet"  ,
         affPoints :  [0,-8,0,0] ,
         negPoints :  [0,10,0,0] 
     },
@@ -122,12 +122,12 @@ const messages = [
     },
 
     {
-        sender : "from:  Kevin" ,
-        text :  "I have a great tip for the next race I just need you to lend me 500 dollars" ,
-        affAnswer :  "we will get rich" ,
-        negAnswer : "my credit card is capped"  ,
-        affPoints :  [17,-8,0,-10] ,
-        negPoints :  [-9,10,0,0] 
+        sender : "from:  Ben" ,
+        text :  "I'm hiding naked behind the bush in the back of Cathy's house.  her husband has just returned.  get me out of here bro" ,
+        affAnswer :  "sure, send pics first LOOOOL" ,
+        negAnswer : "Cathy?... my girlfriend's mother?... WHAT THE F***!"  ,
+        affPoints :  [27,-24,0,0] ,
+        negPoints :  [-17,10,0,0] 
     },
 
     {
@@ -142,7 +142,7 @@ const messages = [
     {
         sender : "from:  Coworker" ,
         text :  "we make a pot for Brenda's birthday, want to give something?" ,
-        affAnswer :  "is 5 $ is enough?" ,
+        affAnswer :  "is -5 $ is enough?" ,
         negAnswer : "who is Brenda?"  ,
         affPoints :  [0,0,-2,-2] ,
         negPoints :  [0,0,-9,0] 
@@ -186,11 +186,38 @@ const messages = [
 
     {
         sender : "from:  PrincessCSS" ,
-        text :  "your code is really neat, pretty clear: there absolutely nothing on it. is it a joke?" ,
+        text :  "your code is really neat, pretty clear: there absolutely nothing in it. is it a joke?" ,
         affAnswer :  "right on my way... in a couple of days" ,
         negAnswer : "i tought it was the bonus part"  ,
         affPoints :  [0,0,-5,0] ,
         negPoints :  [0,0,-9,0] 
+    },
+
+    {
+        sender : "from:  Unknown" ,
+        text :  "hey my big boy. i've send my pix wearing my new bikini but you didn't reply. did you received it? want me to send it back again?" ,
+        affAnswer :  ".... sure thing 'baby'. send me all you got O_O " ,
+        negAnswer : "sorry young lady, wrong number (but you can send it anyway)"  ,
+        affPoints :  [15,-10,0,0] ,
+        negPoints :  [15,-10,0,0] 
+    },
+
+    {
+        sender : "from:  GF's Mom" ,
+        text :  "I can't wait to see you tonight Ben, i can't stop thinking about you and **** *** ****. let's see if ** **** *** *** ** **** ****" ,
+        affAnswer :  ".....sorry, it's Bobby's phone here" ,
+        negAnswer : "O_O ................. ................ 'delete' "  ,
+        affPoints :  [-15,-10,0,0] ,
+        negPoints :  [15,0,0,0] 
+    },
+
+    {
+        sender : "from:  Unknown" ,
+        text :  "ok so i was sayin that the boss is the most stupid dumbA** i've never seen.." ,
+        affAnswer :  "Brenda? wrong number b****! you gonna pay for that! HAAAA HA HA HA! 8-))" ,
+        negAnswer : "since you dial the wrong number, let's assume i didn't see anything..."  ,
+        affPoints :  [15,0,-24,30] ,
+        negPoints :  [0,-10,12,0] 
     },
 ];
 
